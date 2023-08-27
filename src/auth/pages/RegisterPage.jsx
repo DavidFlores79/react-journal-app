@@ -47,7 +47,7 @@ export const RegisterPage = () => {
 
       {/* <Typography variant='h6' sx={{ mb: 2, color: isFormValid ? 'green':'red' }}>Form { isFormValid ? 'valido':'incorrecto' }</Typography> */}
 
-      <form onSubmit={onSubmit}>
+      <form onSubmit={onSubmit} className='animate__animated animate__fadeIn'>
         <Grid container>
           <Grid item xs={12}>
             <TextField label='Nombre' type='text' sx={{ mb: 2 }} placeholder='Escribe tu nombre completo' fullWidth name='name'
